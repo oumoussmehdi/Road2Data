@@ -1,5 +1,6 @@
 ## Welcome to my blog about my data science journey !
 
+[my blog](https://oumoussmehdi.github.io/Road2Data/)
 You can use the [editor on GitHub](https://github.com/oumoussmehdi/Road2Data/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -28,6 +29,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 discover [Feature Engineering](https://guides.github.com/Feature-Engineering/).
+ml [machine learning](pages/Machine-learning-algorithms)
 
 ### Jekyll Themes
 
