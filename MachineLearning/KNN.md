@@ -12,6 +12,11 @@ How knn works ?
 - label the test instance with the label as result of the vote
 
 
+Pros/Cons :
+- Take up a lot of memory to run (storing all the instances)
+- Work well for a small number of dimensions, but not a high number of dimensions
+
+
 How we choose k ?
 - k must be odd, so that we don't have any tights during the votes 
 - draw an ‘elbow curve‘ 
