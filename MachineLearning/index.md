@@ -1,5 +1,7 @@
 Algorithms you need to know : 
 
-- [KNN](MachineLearning/KNN.md)
-- [Decision Trees](MachineLearning/DecisionTrees.md)
- [Logistic Regression](MachineLearning/LogisticRegression.md)
+- [KNN](KNN.md)
+- [Decision Trees](DecisionTrees.md)
+- [Logistic Regression](LogisticRegression.md)
+- [SVM](SVM.md)
+- [NaiveBayes](LogisticRegression.md)
