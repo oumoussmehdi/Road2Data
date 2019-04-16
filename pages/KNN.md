@@ -1,6 +1,7 @@
 
 KNN : K-Nearest Neighbours
 
+works for regression and classification problems
 
 How knn works ?
 
