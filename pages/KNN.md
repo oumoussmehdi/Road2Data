@@ -15,3 +15,5 @@ How knn works ?
 How we choose k ?
 - k must be odd, so that we don't have any tights during the votes 
 - draw an ‘elbow curve‘ 
+
+https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
