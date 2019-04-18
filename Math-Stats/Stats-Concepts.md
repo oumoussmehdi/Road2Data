@@ -13,7 +13,7 @@ The standard deviation of a random variable, statistical population, data set, o
 En mathématiques, l’écart type (aussi orthographié écart-type) est une mesure de la dispersion des valeurs d'un échantillon statistique ou d'une distribution de probabilité. Il est défini comme la racine carréede la variance ou, de manière équivalente, comme la moyenne quadratique des écarts par rapport à la moyenne. Il se note en général avec la lettre grecque σ (« sigma »), d’après l’appellation standard deviation en anglais 
 
 two distributions with the same means but two different standard-deviations 
-![sd diff](normal_distribution_sd_different.png)
+![sd diff](images/normal_distribution_sd_different.png)
 
 two distributions with the same standard-deviations but two different means
 
