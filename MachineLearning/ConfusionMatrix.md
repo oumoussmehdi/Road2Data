@@ -15,7 +15,9 @@ A test result which wrongly indicates that a particular condition or attribute i
 -	Accuracy : shows how ofter the classifier was correct
 Accuracy = (TP+TN)/(TP+TN+FN+FP)  
 
-![Precision & Recall](images/precision_recall.jpeg)
+<p align="center">
+  <img src="images/precision_recall.jpg" alt="Precision & Recall">
+</p>
 
 
 -	Precision : how many selected items are relevant
