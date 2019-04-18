@@ -1,6 +1,6 @@
 Confusion Matrix  
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](../images/confusion_matrix.png)
 
 A Confusion Matrix  is an N x N matrix that is often used to summarize the performance of a classification model. 
 It helps by giving us a better idea of what out classification model is predicting right and what the type of errors it is making. The number of correctly and incorrectly predicted values are summarized and stored in the table against the actual values as shown
@@ -16,7 +16,7 @@ A test result which wrongly indicates that a particular condition or attribute i
 Accuracy = (TP+TN)/(TP+TN+FN+FP)  
 
 <p align="center">
-  <img src="images/precision_recall.jpg" alt="Precision & Recall">
+  <img src="../images/precision_recall.jpg" alt="Precision & Recall">
 </p>
 
 
