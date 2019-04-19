@@ -12,3 +12,7 @@ ensures the data reliability & accuracy
 - Verify & enrich
 - Export
 
+
+* normalization : mapping the features into [-1,1] (dividing by the largest values in the sample)
+* standarization : when I convert to z-score (i.e. standard deviations from the mean value of the sample)
+
