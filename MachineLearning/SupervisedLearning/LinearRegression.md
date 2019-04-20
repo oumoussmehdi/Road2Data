@@ -13,3 +13,7 @@ Le modèle linéaire peut être estimé par la méthode du :
 - la méthode des moments ou 
 - méthodes bayésiennesNote 2.
 
+
+Model Tuning :
+* Normalization 
+* Resampling : smote
