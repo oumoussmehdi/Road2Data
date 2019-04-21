@@ -18,3 +18,16 @@ two distributions with the same means but two different standard-deviations
 two distributions with the same standard-deviations but two different means
 
 ![mean diff](images/normal_distribution_means_different.png)
+
+
+## z-score :
+```math
+$$z= (x-mean)/standard-deviation$$
+\sigma
+````
+
+Here are some important facts about z-scores:
+A positive z-score says the data point is above average.
+A negative z-score says the data point is below average.
+A z-score close to 000 says the data point is close to average.
+A data point can be considered unusual if its z-score is above 333 or below -3−3minus, 3.
