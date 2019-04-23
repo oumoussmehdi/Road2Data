@@ -31,3 +31,16 @@ A positive z-score says the data point is above average.
 A negative z-score says the data point is below average.
 A z-score close to 000 says the data point is close to average.
 A data point can be considered unusual if its z-score is above 333 or below -3−3minus, 3.
+
+
+## Correlation Coefficient r
+r in [-1,1]
+a measure of how well a line can describe the relationship between x and y
+r = 1/(n-1) * sum(z-score(xi) * z-score(yi))
+r > 0 : up slipping line 
+r < 0 : down slipping line 
+r = 0 :
+
+Strong positive linear relationships have values of rrr closer to 111.
+Strong negative linear relationships have values of rrr closer to -1−1minus, 1.
+Weaker relationships have values of rrr closer to 000.
