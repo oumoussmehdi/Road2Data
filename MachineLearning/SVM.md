@@ -15,23 +15,25 @@ La première idée clé est la notion de marge maximale. La marge est la distanc
 
 Afin de pouvoir traiter des cas où les données ne sont pas linéairement séparables, la deuxième idée clé des SVM est de transformer l'espace de représentation des données d'entrées en un espace de plus grande dimension (possiblement de dimension infinie), dans lequel il est probable qu'il existe une séparation linéaire. Ceci est réalisé grâce à une fonction noyau, qui doit respecter les conditions du théorème de Mercer, et qui a l'avantage de ne pas nécessiter la connaissance explicite de la transformation à appliquer pour le changement d'espace. Les fonctions noyau permettent de transformer un produit scalaire dans un espace de grande dimension, ce qui est coûteux, en une simple évaluation ponctuelle d'une fonction. Cette technique est connue sous le nom de kernel trick.
 
-An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall.
+An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. 
+
+New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall.
  
 SVMs can efficiently perform a non-linear classification using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces.
  
 (clustering : support vector clustering)
-Advantages:
-High accuracy
-Theoretical guarantees regarding overfitting
-with an appropriate kernel they can work well even if your data isn’t linearly separable in the base feature space.
-Popular in text classification problems where very high-dimensional spaces are the norm.
+## Advantages:
+- High accuracy
+- Theoretical guarantees regarding overfitting
+- with an appropriate kernel they can work well even if your data isn’t linearly separable in the base feature space.
+- Popular in text classification problems where very high-dimensional spaces are the norm.
  
-Disadvantages:
-Picking/finding the right kernel can be a challenge
-Results/output are incomprehensible
-Memory-intensive, hard to interpret, and kind of annoying to run and tune
-No standardized way for dealing with multiclass problems; fundamentally a binary classifier
-can be painfully inefficient to train. not recommend when having many training examples)
+## Disadvantages:
+- Picking/finding the right kernel can be a challenge
+- Results/output are incomprehensible
+- Memory-intensive, hard to interpret, and kind of annoying to run and tune
+- No standardized way for dealing with multiclass problems; fundamentally a binary classifier
+- can be painfully inefficient to train. not recommend when having many training examples)
  
  
 SVM with a linear kernel is not very different from a Logistic Regression
