@@ -27,16 +27,11 @@ The differences between one- way and two-way ANOVA can be drawn clearly on the f
 
 |||
 |---|---|
-|||
-|||
-|||
-|||
-|||
-A hypothesis test that enables us to test the equality of three or more means simultaneously using variance is called One way ANOVA. A statistical technique in which the interrelationship between factors, influencing variable can be studied for effective decision making, is called Two-way ANOVA.
-There is only one factor or independent variable in one way ANOVA whereas in the case of two-way ANOVA there are two independent variables.
-One-way ANOVA compares three or more levels (conditions) of one factor. On the other hand, two-way ANOVA compares the effect of multiple levels of two factors.
-In one-way ANOVA, the number of observations need not be same in each group whereas it should be same in the case of two-way ANOVA.
-One-way ANOVA need to satisfy only two principles of design of experiments, i.e. replication and randomization. As opposed to Two-way ANOVA, which meets all three principles of design of experiments which are replication, randomization, and local control.
+|A hypothesis test that enables us to test the equality of three or more means simultaneously using variance is called One way ANOVA. A statistical technique in which the interrelationship between factors, influencing variable can be studied for effective decision making, is called Two-way ANOVA.||
+|There is only one factor or independent variable in one way ANOVA whereas in the case of two-way ANOVA there are two independent variables.||
+|One-way ANOVA compares three or more levels (conditions) of one factor. On the other hand, two-way ANOVA compares the effect of multiple levels of two factors.||
+|In one-way ANOVA, the number of observations need not be same in each group whereas it should be same in the case of two-way ANOVA.
+One-way ANOVA need to satisfy only two principles of design of experiments, i.e. replication and randomization. As opposed to Two-way ANOVA, which meets all three principles of design of experiments which are replication, randomization, and local control.||
 
 
 SST: total sum of squares
@@ -70,3 +65,4 @@ is a ratio of 2 chi distributions
 
 REF:
 https://keydifferences.com/difference-between-one-way-and-two-way-anova.html
+https://www.healthknowledge.org.uk/public-health-textbook/research-methods/1b-statistical-methods/parametric-nonparametric-tests
