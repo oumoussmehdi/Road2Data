@@ -67,3 +67,6 @@ H1 :
 alpha = .10 (significance level)
 F-stat = [ssb/(m-1)]/[ssw/(m*(n-1))]
 is a ratio of 2 chi distributions
+
+REF:
+https://keydifferences.com/difference-between-one-way-and-two-way-anova.html
