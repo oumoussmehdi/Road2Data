@@ -17,3 +17,11 @@ Le modèle linéaire peut être estimé par la méthode du :
 Model Tuning :
 * Normalization 
 * Resampling : smote
+
+
+logistic regression (standard, ordinal and multinomial), 
+quantile (not as popular but I think it is very valuable), 
+spline models, 
+nonlinear regression, 
+robust regression and more
+
