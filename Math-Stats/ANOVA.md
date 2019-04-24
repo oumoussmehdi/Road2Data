@@ -25,6 +25,13 @@ Homogeneity of the variance of the population.
 Key Differences Between One-Way and Two-Way ANOVA
 The differences between one- way and two-way ANOVA can be drawn clearly on the following grounds:
 
+|||
+|---|---|
+|||
+|||
+|||
+|||
+|||
 A hypothesis test that enables us to test the equality of three or more means simultaneously using variance is called One way ANOVA. A statistical technique in which the interrelationship between factors, influencing variable can be studied for effective decision making, is called Two-way ANOVA.
 There is only one factor or independent variable in one way ANOVA whereas in the case of two-way ANOVA there are two independent variables.
 One-way ANOVA compares three or more levels (conditions) of one factor. On the other hand, two-way ANOVA compares the effect of multiple levels of two factors.
