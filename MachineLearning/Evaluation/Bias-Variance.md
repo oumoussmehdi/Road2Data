@@ -13,5 +13,10 @@ variance is an error from sensitivity to small fluctuations in the training set
 high variance: causes an algo to model the random noise in the training set rather than the intended ouputs (overfitting)
 
 bias-variance decomposition : 
-general error = bias^2 + variance + irreducible error
+total error = bias^2 + variance + irreducible error
 
+
+## Bias-Variance Tradeoff
+
+- If our model is too simple and has very few parameters then it may have high bias and low variance
+- if our model has large number of parameters then it’s going to have high variance and low bias
