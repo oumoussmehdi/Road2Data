@@ -25,3 +25,5 @@ spline models,
 nonlinear regression, 
 robust regression and more
 
+
+penalized / boosted / partitioned linear regression
