@@ -1,3 +1,11 @@
+# Noise
+
+Noise in tabular data can be of three types:
+
+1. Anomalies at the level of features and/or target (noise 1)
+2. Features that don’t help in explaining the target (Noise 2: irrelevant/weak features)
+3. Records which don’t follow the form or relation which the rest of records do (Noise 3: noisy records)
+
 # Outliers :
 
 Extreme values can be present in both dependent & independent variables, in the case of supervised learning methods.
@@ -49,3 +57,7 @@ use another model that is resilient to outliers
 
 -----
 ! Novelties: Many times we’re dealing with novelties, and the problem is often called supervised anomaly detection
+
+
+ref : 
+- https://medium.com/analytics-vidhya/dealing-with-noisy-data-in-data-science-e177a4e32621
