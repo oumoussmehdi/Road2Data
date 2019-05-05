@@ -39,3 +39,12 @@ less likely than nonparam tests to make type II error
 |paired samples t test|wilcoxon |
 |one-way ANOVA|kruskal|
 |one-way Repeated measures ANOVA|friedman's|
+
+
+
+##
+
+|	|Random sampling|	Not random sampling|
+|---|---|---|
+|Random assignment|	Can determine causal relationship in population. This design is relatively rare in the real world.	|Can determine causal relationship in that sample only. This design is where most experiments would fit.|
+|No random assignment	|Can detect relationships in population, but cannot determine causality. This design is where many surveys and observational studies would fit.	|Can detect relationships in that sample only, but cannot determine causality. This design is where many unscientific surveys and polls would fit.
