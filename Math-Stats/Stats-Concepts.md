@@ -44,3 +44,29 @@ r = 0 :
 Strong positive linear relationships have values of rrr closer to 111.
 Strong negative linear relationships have values of rrr closer to -1−1minus, 1.
 Weaker relationships have values of rrr closer to 000.
+
+
+##
+infering population mean from sample mean : 
+
+
+# Central limit Theorem
+as a sample size gets to infinity
+the means of the different samples follow a normal distribution
+even if the population distribution doesn't necesserly follows a normal distribution
+
+## sampling distribution fo the sample mean
+
+how normal a distribution is : 
+- skew : pos/neg skew
+- kurtosis : 
+  * positive: fater tails and pointy peaks
+  * negative: smaller tails and smoother near the middle
+
+
+how our ditribution changes with 
+the bigger n
+- lower sd, skew and kurtosis
+
+variance_sub_mean = variance / n (var=sd^2)
+sd_mean = sd/sqrt(n)
