@@ -1,4 +1,21 @@
 
+
+## Hypothesis Testing
+H0 : null hypothesis
+H1 : alternative hypothesis (suspect)
+
+### P-value and significance 
+significance level : alpha = 0.05
+population (mean) > sample (mean)
+if we assume that H0 is true, what is the probability of getting a sample with the stats that we get
+if that proba is lower than our significance level, then we say we reject the H0 and we have an evidence for the alternative
+
+ex: take sample (n, mean, sd)
+calculate : p(mean >= val|H0 true)
+p-val < alpha => reject H0
+p-val > alpha => do not reject H0
+
+
 ## Parametric Tests:
 
 * (independent-samples) t-tests
