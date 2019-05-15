@@ -79,3 +79,5 @@ III. Learning Task Parameters
 
 Ref:
 * https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/
+* https://towardsdatascience.com/understanding-gradient-boosting-machines-9be756fe76ab
+* https://towardsdatascience.com/xgboost-mathematics-explained-58262530904a
