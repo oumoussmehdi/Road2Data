@@ -34,5 +34,12 @@ kmeans is equivalent ot the xprectation-maximization algorithm with a small, all
 kmeans will always converge, however this may be to a local minimum, it depends on the initialization fo the centroids
 as a result, the computation is often done several times with different init of centroids 
 
+The common stopping conditions I have seen:
+- Convergence. (No further changes)
+- Maximum number of iterations.
+- Va<riance did not improve by at least x
+- Variance did not improve by at least x * initial variance
+
+If you use MiniBatch k-means, it will not converge, so you need one of the other criteria. The usual one is the number of iterations.
 
 # Mini Batch K-Means
