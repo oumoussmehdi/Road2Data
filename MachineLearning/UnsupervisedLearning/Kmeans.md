@@ -35,7 +35,7 @@ kmeans will always converge, however this may be to a local minimum, it depends 
 as a result, the computation is often done several times with different init of centroids 
 
 The common stopping conditions I have seen:
-- Convergence. (No further changes)
+- Convergence. (No further changes) : |the vector of means in t |m(t)-m(t-1)| < gamma : conv threshold
 - Maximum number of iterations.
 - Va<riance did not improve by at least x
 - Variance did not improve by at least x * initial variance
