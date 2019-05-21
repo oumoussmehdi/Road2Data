@@ -13,8 +13,26 @@ ensures the data reliability & accuracy
 - Export
 
 
-* normalization : mapping the features into [-1,1] (dividing by the largest values in the sample)
+* normalization : mapping the features into [-1,1]. converts all data points to decimals between 0 and 1
+- min = 0 : dividing by the largest values in the sample
+- min < 0 : subtract the min from each point, and then divide by the min-max difference. (x-min)/(max-min)
+
 * standarization : when I convert to z-score (i.e. standard deviations from the mean value of the sample)
+
+>> Transforming Skewed Data
+* sigmoid function 
+* log function (+1)
+when numbers are too large, one can try fractional exponents 
+* cube root
+* log max root
+* hyperbolic tangent
+The hyperbolic tangent distorts the data more than the sigmoid.
+
+* Percentile Linearization
+Percentiles provide yet another option. Each data point can be ranked according to its percentile, and pandas provides a nice built-in method, .rank, for dealing with this.
+
+
+-----
 
 * pandas.get_dummies : Convert categorical variable into dummy/indicator variables
 
