@@ -87,5 +87,5 @@ https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEn
 
 * sklearn.preprocessing import StandardScaler
 
-
-
+data encoding / data embedding : 
+bert/gensim/glove/tfidf
