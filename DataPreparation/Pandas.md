@@ -38,7 +38,23 @@ pd_df.loc[pd_df['Time'].between(0, 30, inclusive=False), 'difficulty'] = 'Easy'
 pd_df.loc[pd_df['Time'].between(30, 60, inclusive=True), 'difficulty'] = 'Medium'
 ```
 
-* np.melt
+* np.stack : Stack the prescribed level(s) from columns to index
+```
+df.stack(level = 0, dropna=False)
 ```
 
+* np.unstack()
+```
+df.stack()
+```
+
+* pivot
+```df.pivot()```
+
+* pivot_table
+```df.pivot_table()```
+
+* np.melt : Unpivots a DataFrame from wide format to long format
+```
+pd.melt(df, id_vars=['col1'], value_vars=['col2', 'col3'])
 ```
