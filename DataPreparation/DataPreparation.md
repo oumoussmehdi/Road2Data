@@ -1,4 +1,17 @@
 
+Data cleaning is a very important step in your data analysis :
+
+some times you would have many field in your data which are empty (nulls, nas) therefore you should take in consideration this when you analyse your data. for instace, when you are trying to do machine learning many algorithms doesn’t know how to deal with data that contains nulls, as a result, it is your responsability to try and figure out how you can deal with the voids in your data. this can be solve in many ways:
+
+either you remove the records that contains the nulls, which is not usually a good idea, especially if you have few data
+or a better solution would be to replace the nulls with a certain values, this could be the mean, the median, or a default value
+also, as my friends above mention it, data can contain errors especially if it comes from human input (human error) so it is recommended to fix such mistakes, a simple example would be: you have a column in your data called Country, and in it you have values for instance: Morocco, Moroko, unless you correct the second value, the two would be considered different.
+
+Another example, which comes out especially when you receive data from different sources is the next one: let’s keep our country example, however this time you found out that in some values are as follow: USA, u.s.a, united states, we can agree that these values are all correct and refer to the same entity. however unless you try to map them to a single value your analysis will consider them different.
+
+I hope you find my answer helpful
+
+---
 
 very important step in the data science journey 
 ensures the data reliability & accuracy 
