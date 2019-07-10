@@ -1,10 +1,10 @@
 
 
-MAE : Mean absolute error
-MSE : Mean Squared error
-RMSE : Root Mean Squared error
-MAPE : Mean Absolute percentage error
-R2 score
+* MAE : Mean absolute error
+* MSE : Mean Squared error
+* RMSE : Root Mean Squared error
+* MAPE : Mean Absolute percentage error
+* R2 score
 
 
 references : 
