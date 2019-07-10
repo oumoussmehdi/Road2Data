@@ -28,8 +28,8 @@ Recall(TPR) = TP/(TP+FN)
 -	Specificity / TNR (true negative rate) :
 TNR = TN/(TN+FP)
 
-	ROC
-	AUC
++ ROC
++ AUC
 
 Classification model evaluation metrics :
 - Kolmogorov Smirnov test
