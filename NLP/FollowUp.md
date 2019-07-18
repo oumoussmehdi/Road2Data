@@ -1,11 +1,14 @@
 
 
 XLNet : uses Transformer-XL at its core.
+
 XLNet has so far outperformed Google’s BERT on 20 NLP tasks and achieved state-of-the-art performance on 18 such tasks.
 https://colab.research.google.com/github/graykode/xlnet-Pytorch/blob/master/XLNet.ipynb
 
 Google’s BERT
+
 OpenAI’s GPT-2
+
 Google’s Transformer-XL
 
 
