@@ -28,10 +28,10 @@ Recall(TPR) = TP/(TP+FN)
 -	Specificity / TNR (true negative rate) :
 TNR = TN/(TN+FP)
 
-+ ROC
-+ AUC
++ ROC : receiver operating characteristic 
++ AUC : area under the curve
 
 Classification model evaluation metrics :
 - Kolmogorov Smirnov test
 - Gain and Lifts
-- F Scores 
+- F Scores : harmonic mean of precision and recall (2pr/(p+r))
