@@ -1,0 +1,3 @@
+
+he's identified price patterns from houses he has seen in the past, and he uses those patterns to make predictions for new houses he is considering
+This step of capturing patterns from data is called fitting or training the model
