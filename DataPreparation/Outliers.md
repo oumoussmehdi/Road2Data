@@ -59,5 +59,37 @@ use another model that is resilient to outliers
 ! Novelties: Many times we’re dealing with novelties, and the problem is often called supervised anomaly detection
 
 
+### Why not remove outliers
+Outliers often tell you something different than central values. For example, in the distribution of human height, outliers generally result from specific genetic conditions. Some researchers are concerned primarily with these types of conditions, others with the more usual factors that determine heights of 99.7% of adult humans.
+
+In this case it makes sense to study outliers and central values separately, but there’s no reason to assume one is more important than the other. In many cases outliers are more consequential in aggregate than central values, despite being rare.
+
+It’s usually important to keep in mind that many outliers will be censored from your data set, or misrepresented. In measuring adult human height, for example, you have to think about how to treat people with amputated legs. It probably makes sense to exclude them from general height studies—or to adjust measurements to account for amputation.
+
+Outliers frequently represent data errors, such as misplaced decimal points or misrecorded units. But legitimate outliers are often suppressed on the assumption they are data errors, or because they don’t fit in data collection boxes.
+
+My father worked in graduate school for a guy who collected cosmic ray data on mountaintop automated recorders. In 1940s technology, these collector plates could get dirty and produce extreme high values. When this happened, you had to drive up the mountain, take the box taken apart and clean the plate. My Dad’s boss did this one day, but the high readings persisted. So he did it again. He reassembled the box for the second time and caught the tail end of the cosmic ray event of the century. Remember that before you discard outliers.
+
+But there is another scenario in which outliers result from the same process as central values. These can be tricky to deal with but sometimes produce the deepest insights.
+
+/ans
+There are several reasons why you would not delete outliers. it depends on the size, shape, and structure of your data set, as well as what you want to do with the data and what models you might use to analyze it.
+
+* First why would you ever delete any data anyways? 
+- because it helps you model the data better and predict future data better. If this is true then it is fast and easy to just delete outliers that don't help you predict. 
+- But what if you could just change parts of the outliers and you get better prediction? This can be the case, so if you have time, transforming the outliers can be better than deletion because while parts of the outlier observations hurt prediction other parts may help.
+
+* Second, you may have a lot of data and deleting a few pesky outliers doesn't effect the model either way but it looks better when graphed. This seems unethical but if you don't want to draw attention to outliers then maybe you should not model them.
+
+* Third you may have a very small data set and the model you choose is greatly affected by the outliers. In this case you must be careful because the outcome is significantly different if outliers are included. And if you have no good reason to see those values as not truly belonging in the data set then deleting them would bias your results significantly. You may think the values are outliers but in reality they represent an under sampled part of the data and so if you throw them out your model only represents part of the real data and can not predict a significant portion of reality.
+
+Throwing away data is the same as only modeling part of the data! In general the more data you have the better your model.
+
+In the end it depends. It is generally a good idea to find a model that can incorporate outliers. However depending on the reason for the analysis deleting or better yet transforming the outliers could be a better strategy.
+
+If the outliers don't reflect reality because they are mistakes then delete them. But the real world is filled with outliers, so if you want to model the real world you can't delete the parts of it you think don't belong.
+
+Whenever you find an outlier stop to think and analyze it. Justify your decision to drop/impute/keep it.
+
 ref : 
 - https://medium.com/analytics-vidhya/dealing-with-noisy-data-in-data-science-e177a4e32621
