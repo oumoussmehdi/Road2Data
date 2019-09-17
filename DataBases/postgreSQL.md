@@ -15,7 +15,7 @@ or
 SELECT * FROM pg_catalog.pg_tables;
 
 ### migrate db from a server to another:
-- pg_dump
+- pg_dump -h host1 dbname | psql -h host2 dbname
 - pgAdmin : backup origin > restore target
 
 ### show the row count of the different tables:
