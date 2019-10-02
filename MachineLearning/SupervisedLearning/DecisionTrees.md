@@ -38,5 +38,9 @@ To build a decision tree, we need to calculate two types of entropy using freque
 The information gain is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attribute that returns the highest information gain (i.e., the most homogeneous branches).
  
  
+ Stopping criterion:
+ 
+ 
+ 
 https://www.kaggle.com/dansbecker/underfitting-and-overfitting
 
